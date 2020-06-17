@@ -6,4 +6,5 @@ function calculateAverage(grades) {
     let sum = grades.reduce((a, b) => a + b);
     return Math.round(sum / grades.length);
 }
+
 console.log(calculateAverage([76, 60, 83, 100, 78]));
